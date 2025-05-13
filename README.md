@@ -37,14 +37,14 @@ python main.py data1.csv data2.csv data3.csv --report payout
 python main.py data1.csv data2.csv data3.csv --report payout
 ```
 
-![Пример вывода в JSON формате](image/2025-05-14_02-16.png)
+![Пример вывода в текстовом формате](image/2025-05-14_02-17.png)
 
 Вывод отчета в консоль в текстовом формате:
 ```bash
 python main.py data1.csv data2.csv data3.csv --report payout --format text
 ```
+![Пример вывода в JSON формате](image/2025-05-14_02-16.png)
 
-![Пример вывода в текстовом формате](image/2025-05-14_02-17.png)
 
 Сохранение отчета в JSON-файл:
 ```bash
