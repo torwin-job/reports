@@ -36,8 +36,8 @@ python main.py data1.csv data2.csv data3.csv --report payout
 ```bash
 python main.py data1.csv data2.csv data3.csv --report payout
 ```
+![Пример сохранения в файл](image/2025-05-14_02-18.png)
 
-![Пример вывода в текстовом формате](image/2025-05-14_02-17.png)
 
 Вывод отчета в консоль в текстовом формате:
 ```bash
@@ -51,12 +51,14 @@ python main.py data1.csv data2.csv data3.csv --report payout --format text
 python main.py data1.csv data2.csv data3.csv --report payout --output report.json
 ```
 
+![Пример вывода в текстовом формате](image/2025-05-14_02-17.png)
+
+
 Сохранение отчета в текстовый файл:
 ```bash
 python main.py data1.csv data2.csv data3.csv --report payout --format text --output report.txt
 ```
 
-![Пример сохранения в файл](image/2025-05-14_02-18.png)
 
 
 
