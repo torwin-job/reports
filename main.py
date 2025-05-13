@@ -82,9 +82,7 @@ def save_to_file(content: str, output_file: str) -> bool:
 
 
 def main():
-    """
-    Основная функция программы
-    """
+
     parser = argparse.ArgumentParser(description='Генератор отчетов по данным сотрудников')
     parser.add_argument('files', nargs='+', help='CSV файлы с данными сотрудников')
     parser.add_argument('--report', required=True, help='Тип отчета (например, payout)')
