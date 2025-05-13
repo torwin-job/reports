@@ -2,6 +2,7 @@
 
 Данный скрипт читает данные сотрудников из CSV файлов и формирует отчеты различных типов в разных форматах вывода.
 
+
 ## Требования
 
 - Python 3.6+
@@ -36,10 +37,14 @@ python main.py data1.csv data2.csv data3.csv --report payout
 python main.py data1.csv data2.csv data3.csv --report payout
 ```
 
+![Пример вывода в JSON формате](image/2025-05-14_02-16.png)
+
 Вывод отчета в консоль в текстовом формате:
 ```bash
 python main.py data1.csv data2.csv data3.csv --report payout --format text
 ```
+
+![Пример вывода в текстовом формате](image/2025-05-14_02-17.png)
 
 Сохранение отчета в JSON-файл:
 ```bash
@@ -50,6 +55,8 @@ python main.py data1.csv data2.csv data3.csv --report payout --output report.jso
 ```bash
 python main.py data1.csv data2.csv data3.csv --report payout --format text --output report.txt
 ```
+
+![Пример сохранения в файл](image/2025-05-14_02-18.png)
 
 
 
@@ -138,4 +145,4 @@ FormatterFactory.register_formatter('xml', XmlFormatter)
 - Проверка корректности типа отчета
 - Проверка корректности формата вывода
 - Обработка ошибок при чтении данных
-- Обработка ошибок при генерации и форматировании отчета 
+- Обработка ошибок при генерации и форматировании отчета
